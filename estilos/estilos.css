@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+header section img {
+    width: 1.5em;
+}
+
+.nav_ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav_ul li {
+    list-style: none;
+    padding: 0.5em;
+}
+
+.nav_ul a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.nav_ul_home a{
+    color: #1F618D;
+} 
+
+.banner {
+    background-image: url("/imagenes/banner.png");
+    width: 465px;
+    height: 25vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    letter-spacing: 0.1em;
+}
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+.busqueda {
+    position: relative;
+    display: flex;
+    margin: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background:#F6DDCC;
+    border-radius: 10px;
+    width: 450px;
+    height: 50px;
+    color: #1F3F68;
+    opacity: 0.5;
+    padding: 20px;
+}
+.caja_busqueda {
+    display: flex;
+    align-items: center;
+}
+.caja_busqueda p {
+    position: absolute;
+    left: 80px;
+}
+
+.popular h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: #356EAD;
+    opacity: 0.8;
+    padding: 1em 0;
+    margin-left: 15px;
+}
+.contenedor {
+    margin: 10px;
+}
+.popular_articulo {
+    width: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.caja_popular {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.popular_articulo h3{
+    color: #40AAD5;
+}
+.popular_articulo p{
+    color:#747575;
+}
+.caja_popular .popular_fecha {
+    color:silver
+}
+.popular_texto {
+    line-height: 40px;
+}
+.popular_iconos {
+    width: 80px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .contenedor {
+        display: grid;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
